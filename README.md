@@ -1,4 +1,5 @@
 # Garden of Dreams
 ## Authors:
-Frandy Sluelue
+Frandy Slueue
+
 Mei Sibley
