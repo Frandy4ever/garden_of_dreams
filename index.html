@@ -14,26 +14,55 @@
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
   <header class="header">
-    <a href="#" class="logo">Atlas Fresh.</a>
+      <a href="#" class="logo">Garden of Dreams</a> 
+      <div class="social-medias">
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+      </div>
 
-    <div class="social-medias">
-      <a href="#"><i class="bx bxl-twitter"></i></a>
-      <a href="#"><i class="bx bxl-facebook"></i></a>
-      <a href="#"><i class="bx bxl-github"></i></a>
-      <a href="#"><i class="bx bxl-linkedin"></i></a>
-      <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-    </div>
-
-    <nav class="navbar">
+    <nav class="navbar navbar-light navbar-expand-md">
+      <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <!--<nav class="navbar">
       <a href="#fruits">Fruits</a>
       <a href="#flowers">Flowers</a>
       <a href="#grains">Grains</a>
       <a href="#drynuts">Dry Nuts</a>
       <a href="#wilderness">Plantations</a>
+    </nav>-->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav float-end">
+          <li class="nav-item">
+            <a class="nav-link text-white m-2 p-1" href="#fruits">Fruits</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white m-2 p-1" href="#flowers">Flowers</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white m-2 p-1" href="#grains">Grains</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white m-2 p-1" href="#drynuts">Dry Nuts</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white m-2 p-1" href="#wilderness">Plantations</a> 
+          </li>
+        </ul>
+      </div>
+      </div>
     </nav>
   </header>
 
