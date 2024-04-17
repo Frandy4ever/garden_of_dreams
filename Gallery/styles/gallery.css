@@ -58,6 +58,15 @@ body {
   z-index: -1;
 }
 
+.deco {
+  background: red;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+
 .background-video video {
   width: 100%;
   height: 100%;
@@ -93,7 +102,7 @@ body {
   left: 0;
   width: 50%;
   height: 100%;
-  background: var(--cover-color);
+  background: linear-gradient(red, var(--cover-color));
   box-shadow: var(--box-shadow);
   border-top-left-radius: .6rem;
   border-bottom-left-radius: .6rem;
