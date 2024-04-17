@@ -4,7 +4,7 @@ Come to our Travel Atlas! We will take you to the all nature sites on the whole 
 Do you like an endless sea of dry sand wave, or a cool mist jungle? Do you want to climb a steep cliff? or relax whole your mind in the salty water? Come and join us!
 
 Travel all over the world and taste various natures.
-![Alt text](nature1.png)
+![Alt text](B445F7C6-AB8C-40C2-8125-D51850439044_1_201_a-1.jpeg)
 ## Authors:
 Frandy Slueue
 
