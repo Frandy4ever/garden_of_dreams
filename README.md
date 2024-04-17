@@ -6,7 +6,7 @@
 ![Alt text](destination.jpeg)
 
 ## You can travel all over the world and taste various natures.
-![Alt text](B445F7C6-AB8C-40C2-8125-D51850439044_1_201_a-1.jpeg)
+![Alt text](botany.jpeg)
 
 ## For each of those catalogs, you can find it's individual booklet:
 ![Alt text](booklet1.jpeg)
