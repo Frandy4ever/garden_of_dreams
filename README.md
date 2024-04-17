@@ -5,7 +5,7 @@
 ## Do you like to watch an endless desert review, or adventure at a mist jungle? Do you want to climb a steep cliff? or relax whole your mind in the salty water? Come and join us!
 ![Alt text](destination.jpeg)
 
-## You can travel all over the world and taste various natures.
+## You can travel all over the world and taste various natures:
 ![Alt text](botany.jpeg)
 
 ## For each of those catalogs, you can find it's individual booklet:
