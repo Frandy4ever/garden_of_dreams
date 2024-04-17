@@ -1,140 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authors" content="Frandy & Mei @Code~Breeders">
+    <title>Travel Atlas | </title>
+    <link rel="icon" type="image/png" href="../Images/logo/Travel-Atlas_logo_noBg.png">
+    <link rel="stylesheet" href="./Main/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
-  <!-- ******************* -->
-  <!-- Boxicons Icons -->
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-  <!-- Page Styles -->
-  <link rel="stylesheet" href="styles/styles.css" />
-  <title>Atlas Fresh</title>
-
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-
 <body>
-  <header class="header">
-      <a href="#" class="logo">Garden of Dreams</a> 
-      <div class="social-medias">
-        <a href="#"><i class="bx bxl-twitter"></i></a>
-        <a href="#"><i class="bx bxl-facebook"></i></a>
-        <a href="#"><i class="bx bxl-github"></i></a>
-        <a href="#"><i class="bx bxl-linkedin"></i></a>
-        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-      </div>
+<section id="banner">
+    <img src="../Images/logo/Travel-Atlas_logo_noBg.png" class="logo">
+    <div class="banner-text">
+        <h3>We are</h3>
+        <h1>Travel Atlas</h1>
+        <p>The world leading travel agency</p>
+        <div class="banner-btn">
+            <a href="#"><span></span>Find Out</a>
+            <a href="#"><span></span>Read More</a>
+        </div>
+    </div>
+</section>
 
-    <nav class="navbar navbar-light navbar-expand-md">
-      <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    <!--<nav class="navbar">
-      <a href="#fruits">Fruits</a>
-      <a href="#flowers">Flowers</a>
-      <a href="#grains">Grains</a>
-      <a href="#drynuts">Dry Nuts</a>
-      <a href="#wilderness">Plantations</a>
-    </nav>-->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav float-end">
-          <li class="nav-item">
-            <a class="nav-link text-white m-2 p-1" href="#fruits">Fruits</a> 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white m-2 p-1" href="#flowers">Flowers</a> 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white m-2 p-1" href="#grains">Grains</a> 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white m-2 p-1" href="#drynuts">Dry Nuts</a> 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white m-2 p-1" href="#wilderness">Plantations</a> 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white m-2 p-1" href="/Destinations/destinations.html">Destinations</a> 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white m-2 p-1" href="/About/about.html">About</a> 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white m-2 p-1" href="/Gallery/gallery.html">Gallery</a> 
-          </li>
-        </ul>
-      </div>
-      </div>
+<div id="sideNav">
+    <nav>
+    <ul>
+        <li><a href="#banner">HOME</a></li>    
+        <li><a href="#feature">FEATURES</a></li>    
+        <li><a href="#service">SERVICES</a></li>    
+        <li><a href="#testimonial">TESTIMONIALS</a></li>    
+        <li><a href="#footer">MEET US</a></li>  <hr>  
+        <li><a href="/Botany/botany.html">Botany</a></li>    
+        <li><a href="../Gallery/gallery.html">Gallery</a></li>    
+        <li><a href="../Destinations/destinations.html">Destinations</a></li>    
+    </ul>
     </nav>
-  </header>
+</div>
+<div id="menuBtn">
+    <img src="../Images/menu.png" id="menu">
+</div>
 
-  <section class="banner">
-    <div class="slider">
-
-      <!-- ************************** -->
-      <!-- Fruits Page -->
-      <!-- ************************** -->
-      <div class="slide active" id="fruits">
-        <video src="https://videos.pexels.com/video-files/3239808/3239808-hd_1920_1080_25fps.mp4" autoplay muted
-          loop></video>
-        <!-- <img src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""> -->
-
-        <!-- Left Side  -->
-        <div class="left-info">
-          <div class="penetrate-blur">
-            <h1>Fru</h1>
-          </div>
-          <div class="content">
-            <h3>01. Various Fruits</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Excepturi esse vitae eos at itaque suscipit, sed, tempora porro
-              tempore voluptate vero sit fugit iure dolor exercitationem iste
-              totam qui neque.
-            </p>
-            <a href="#" class="btn">More Details</a>
-          </div>
+<!--Features-->
+    
+<section id="feature">
+<div class="title-text">
+<p></p>    
+<h1>Why Choose Us</h1>
+</div> 
+<div class="feature-box">
+    <div class="features">
+        <h1>Experienced Staff</h1>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-shield"></i>
+            </div>
+            <div class="feature-text">
+                <p>Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula.</p>
+            </div>
         </div>
-
-        <!-- Right Side  -->
-        <div class="right-info">
-          <h1>its</h1>
-          <h3>Plantation</h3>
+        <h1>Pre Booking Online</h1>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-check-square-o"></i>
+            </div>
+            <div class="feature-text">
+                <p>Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula.</p>
+            </div>
         </div>
-      </div>
-
-      <!-- ************************* -->
-      <!-- Flowers Page -->
-      <!-- ************************* -->
-
-      <div class="slide" id="flowers">
-        <video src="https://videos.pexels.com/video-files/4928001/4928001-hd_1920_1080_25fps.mp4" autoplay muted
-          loop></video>
-        <!-- <img src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""> -->
-
-        <!-- Left Side  -->
-        <div class="left-info">
-          <div class="penetrate-blur">
-            <h1>Flow</h1>
-          </div>
-          <div class="content">
-            <h3>02. Various Flowers</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Excepturi esse vitae eos at itaque suscipit, sed, tempora porro
-              tempore voluptate vero sit fugit iure dolor exercitationem iste
-              totam qui neque.
-            </p>
-            <a href="#" class="btn">More Details</a>
-          </div>
+        <h1>Affordable Cost</h1>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-inr"></i>
+            </div>
+            <div class="feature-text">
+                <p>Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula.</p>
+            </div>
         </div>
+<<<<<<< Updated upstream
 
         <!-- Right Side  -->
         <div class="right-info">
@@ -242,18 +189,289 @@
         </div>
       </div> -->
 
+=======
+>>>>>>> Stashed changes
     </div>
-    <div class="navigation">
-      <span class="prev-btn"><i class='bx bx-chevron-left'></i></span>
-      <span class="next-btn"><i class='bx bx-chevron-right'></i></span>
+    <div class="features-img">
+        <img src="../Images/hike-site.jpg">
     </div>
-  </section>
+</div>  
+    
+</section>
+    
+<!--Service   -->
+    
+<section id="service">
+    <div class="title-text">
+    <p></p>    
+    <h1>Some of our Best Destinations</h1>
+    </div>
+    <div class="service-box">
+        <div class="single-service">
+            <img src="../Images/the-dune.jpeg">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Want to experience the dune?</h3>
+                <hr>
+                <p>We provide the best travels to the most dry places known to man.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="../Images/monkey-bridge.jpeg">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Are you a jungle lover?</h3>
+                <hr>
+                <p>Join our camping travels to any jungle on Earth.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="../Images/clift-view.jpeg">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Are you about fresh air at a higher altitute?</h3>
+                <hr>
+                <p>We provide accomodations to any peek and offer the best experiences.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="../Images/fresh-watefall.jpeg">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Where are the water lovers?</h3>
+                <hr>
+                <p>There is no better water than the best water falls and beaches known to man. Join any of our espeditions.</p>
+            </div>
+        </div>
+    </div>
+    
+</section>   
+    
+<!-- Testimonial   -->
 
+<section id="testimonial">
+    <div class="title-text">
+    <p></p>    
+    <h1>What Everyone <br>says about Us</h1>
+    </div>
+<div class="testimonial-row">
+    <div class="testimonial-col">
+        <div class="user">
+            <img src="../Images/profile_1.jpg">
+            <div class="user-info">
+                <h4>Rick Richee <i class="fa fa-twitter"></i></h4>
+                <small>@r.richee</small>
+            </div>
+        </div>
+        <p>Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi. Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi.</p>
+    </div>
+    <div class="testimonial-col">
+        <div class="user">
+        <img src="../Images/profile_2.jpg">
+        <div class="user-info">
+            <h4>Rachelle Blake <i class="fa fa-twitter"></i></h4>
+            <small>@r.blake</small>
+        </div>
+        </div>
+        <p>Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi. Donec eget ultricies sapi.</p>
+    </div>
+    <div class="testimonial-col">
+        <div class="user">
+        <img src="../Images/profile_3.jpg">
+        <div class="user-info">
+            <h4>Donald Pauler <i class="fa fa-twitter"></i></h4>
+            <small>@donald.p</small>
+        </div>
+        </div>
+        <p>Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi. Donec eget ultricies sapi. Sed porttitor, mauris ater lob facilisis, elit sapie eleifend ligula. Donec eget ultricies sapi.</p>
+    </div>
+</div>
+  
+</section>
+    
+<!--footer-->
+    
+<section class="footer" id="footer">
+    <a href="">
+        <img src="../Images/logo/Travel-Atlas_logo_noBg.png" class="footer-img">
+        <div class="title-text">
+        <!-- <p></p> -->
+        <h1>Book with us Today</h1>
+        </div>
+    </a>
+<div class="footer-row">
+<div class="footer-left">
+    <h1>Opening Hours</h1>
+    <p><i class="fa fa-clock-o"></i>Monday to Friday - 9am to 9pm</p>
+    <p><i class="fa fa-clock-o"></i>Saturday & Sunday - 8am to 11pm</p>
+</div>    
+<div class="footer-right">
+    <h1>Get In Touch</h1>
+    <p>15 N Cheyenne Ave, Tulsa, OK 74103<i class="fa fa-map-marker"></i></p>
+    <p>Info@travelatlas.com<i class="fa fa-paper-plane"></i></p>
+    <p>(918) 392-5530<i class="fa fa-phone"></i></p>
+</div>    
+</div>    
+ 
+<div class="social-links">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-youtube-play"></i>
+    <p>&#169; Copyright <span class="name">Travel Atlas</span>. All rights reserved</p>
+</div>
+    
+</section>   
 
-  <!-- Bootstrap JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-ZXo3Q1Ym3nHEW3DlU1iaBIdGNvjBMwgHJ1WrDd5Alyu7B4e5Jfjk6do/JwXcNEq0" crossorigin="anonymous"></script>
-  <script src="source/script.js"></script>
+<!-- <footer class="footer">
+    <a href="">
+       <img src="../Images/logo/Travel-Atlas_logo_noBg.png" class="footer-img">
+       <div class="title-text">
+       <p></p> -->
+       <!-- <h1>Book with us Today</h1> -->
+       <!-- </div>
+   </a>
+    <div class="footer__container container grid">
+       <div class="footer__content grid">
+          <div>
+             <a href="#" class="footer__logo">Travel Atlas</a>
+
+             <p class="footer__description">
+                Travel with us and explore <br> 
+                the world without limits.
+             </p>
+          </div>
+
+          <div class="footer__data grid">
+             <div>
+                <h3 class="footer__title">About</h3>
+
+                <ul class="footer__links">
+                   <li>
+                      <a href="#" class="footer__link">About Us</a>
+                   </li>
+
+                   <li>
+                      <a href="#" class="footer__link">Features</a>
+                   </li>
+                   
+                   <li>
+                      <a href="#" class="footer__link">News & Blog</a>
+                   </li>
+                </ul>
+             </div>
+
+             <div>
+                <h3 class="footer__title">Company</h3>
+
+                <ul class="footer__links">
+                   <li>
+                      <a href="#" class="footer__link">FAQs</a>
+                   </li>
+
+                   <li>
+                      <a href="#" class="footer__link">History</a>
+                   </li>
+
+                   <li>
+                      <a href="#" class="footer__link">Testimonials</a>
+                   </li>
+                </ul>
+             </div>
+
+             <div>
+                <h3 class="footer__title">Contact</h3>
+
+                <ul class="footer__links">
+                   <li>
+                      <a href="#" class="footer__link">Call Center</a>
+                   </li>
+
+                   <li>
+                      <a href="#" class="footer__link">Support Center</a>
+                   </li>
+
+                   <li>
+                      <a href="#" class="footer__link">Contact Us</a>
+                   </li>
+                </ul>
+             </div>
+
+             <div>
+                <h3 class="footer__title">Support</h3>
+
+                <ul class="footer__links">
+                   <li>
+                      <a href="#" class="footer__link">Privacy Policy</a>
+                   </li>
+
+                   <li>
+                      <a href="#" class="footer__link">Terms & Services</a>
+                   </li>
+
+                   <li>
+                      <a href="#" class="footer__link">Payments</a>
+                   </li>
+                </ul>
+             </div>
+          </div>
+       </div>
+
+       <div class="footer__group">
+          <div class="footer__social">
+             <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                <i class="ri-facebook-line"></i>
+             </a>
+
+             <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                <i class="ri-instagram-line"></i>
+             </a>
+
+             <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                <i class="ri-twitter-line"></i>
+             </a>
+
+             <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+                <i class="ri-youtube-line"></i>
+             </a>
+          </div>
+
+          <span class="footer__copy">
+             &#169; Copyright Travel Atlas. All rights reserved
+          </span>
+       </div>
+    </div>
+ </footer> -->
+ 
+    
+    
+    
+    
+    
+<script>
+var menuBtn = document.getElementById("menuBtn")    
+var sideNav = document.getElementById("sideNav")    
+var menu = document.getElementById("menu") 
+
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+        menu.src = "../Images/close.png";
+    }
+    else{
+        sideNav.style.right = "-250px";
+        menu.src = "../Images/menu.png";
+    }
+}
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+
+</script>    
+    
 </body>
-
 </html>
